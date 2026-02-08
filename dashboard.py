@@ -25,6 +25,6 @@ app.layout = html.Div(
     ]
 )
 
-# Run the application
+# Run the application from the server 
 if __name__ == '__main__':
     app.run_server(debug=True)
