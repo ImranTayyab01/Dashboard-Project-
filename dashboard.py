@@ -2,7 +2,7 @@ import dash
 from dash import dcc, html  # Updated imports
 
 # create a dash application 
-app = dash.Dash(__name__)
+app = dash.Dash(name)
 
 # Define the layout of the dashboard 
 app.layout = html.Div(
@@ -26,5 +26,5 @@ app.layout = html.Div(
 )
 
 # Run the application from the server 
-if __name__ == '__main__':
+if name == 'main':
     app.run_server(debug=True)
